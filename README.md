@@ -1,4 +1,4 @@
-# CVE-2016-0058 Analysis 
+## Stack-based buffer overflows due to unchecked (or insufficiently checked) memory copies.
 
 ## Overview
 
