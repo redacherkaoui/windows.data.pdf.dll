@@ -105,7 +105,7 @@ memmove(stackBuf, src, copyLen);
 
 ---
 
-## Residual Risks & Regression Audit
+## Residual Risks
 
 1. **Integer Underflow / Overflow**: `endPtr < src` can wrap `copyLen` large enough to bypass `> cap` check.
 2. **Boundary Off‑By‑One**: `copyLen == cap` may leave no room for later adjustments (e.g., `endPtr -= 4`).
