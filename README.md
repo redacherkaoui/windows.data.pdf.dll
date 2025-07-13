@@ -1,4 +1,4 @@
-# CVE-2016-0058 Analysis and Regression Audit
+# CVE-2016-0058 Analysis 
 
 ## Overview
 
@@ -128,4 +128,4 @@ The MS16‑012 patch correctly inserts bounds checks, but subtle arithmetic and 
 
 ---
 
-CHERKAOUI REDA ANOAR
+
