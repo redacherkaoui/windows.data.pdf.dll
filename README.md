@@ -124,8 +124,8 @@ memmove(stackBuf, src, copyLen);
 
 ## Conclusion
 
-The MS16‑012 patch correctly inserts bounds checks, but subtle arithmetic and incomplete filter coverage introduce regression vulnerabilities. A comprehensive audit and global copy-site hardening (centralized helper) plus targeted fuzzing are recommended to ensure all overflows are eliminated.
+The MS16‑012 patch correctly inserts bounds checks, but subtle arithmetic and incomplete filter coverage introduce vulnerabilities. A comprehensive audit and global copy-site hardening (centralized helper) plus targeted fuzzing are recommended to ensure all overflows are eliminated.
 
 ---
 
-*Technical audit by Research Team*
+CHERKAOUI REDA ANOAR
