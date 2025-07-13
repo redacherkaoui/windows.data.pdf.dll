@@ -11,7 +11,7 @@ Stack-based buffer overflow in Microsoft’s Windows PDF Library (`PDFLibrary.dl
 * **DLL**: `PDFLibrary.dll` (invoked by `windows.data.pdf.dll` on Windows 10)
 * **Versions**:
 
-  * Unpatched: **10.0.10240.16384** (Windows 10 RTM)
+
   * Patched: Post–MS16‑012 (e.g., **10.0.19041.5794**)
 
 ---
